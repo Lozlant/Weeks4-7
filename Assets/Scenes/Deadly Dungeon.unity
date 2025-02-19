@@ -255,6 +255,7 @@ GameObject:
   - component: {fileID: 684256401}
   - component: {fileID: 684256400}
   - component: {fileID: 684256399}
+  - component: {fileID: 684256402}
   m_Layer: 0
   m_Name: Mirror
   m_TagString: Untagged
@@ -346,6 +347,21 @@ Transform:
   - {fileID: 690835467}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &684256402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684256398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81c88c1f89cedbf449247e9d134a0995, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hazard: {fileID: 684256400}
+  playerSprite: {fileID: 1391148964}
+  player: {fileID: 1391148963}
 --- !u!1 &690835465
 GameObject:
   m_ObjectHideFlags: 0
@@ -716,6 +732,7 @@ MonoBehaviour:
   speed: 3
   health: 0
   maxhealth: 5
+  sprite: {fileID: 1391148964}
 --- !u!212 &1391148964 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 2593891206015117075, guid: ef2b6e3a0904d0a488fb7a1bd47ce073, type: 3}

@@ -25,6 +25,7 @@ public class Mirror : MonoBehaviour
             Vector2 pos= gs.transform.position;
             pos.x=player.position.x;
             pos.y=2*transform.position.y-player.position.y;
+            gs.transform.position=pos;
         }
         else if(gs!=null) 
         {
